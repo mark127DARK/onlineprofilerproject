@@ -1,0 +1,66 @@
+
+{% extends 'base.html' %}
+
+{% block title %}
+    User List
+{% endblock title %}
+
+{% block content %}
+    <!-- <h1>hello</h1> -->
+
+    
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    
+
+    <style>
+        .main {
+            /* background-image: url(/static/image/background1.png); */
+            margin-top: 0px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .form-elegant .font-small {
+            font-size: 0.8rem;
+        }
+
+        .form-elegant .z-depth-1a {
+            -webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+            box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+        }
+
+        .form-elegant .z-depth-1-half,
+        .form-elegant .btn:hover {
+            -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
+            box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
+        }
+    </style>
+
+    <section class="main">
+        <div class="container text-center" style="padding-top: 100px;">
+            <h5 class="display-5 text-info"> Welcome to Our Online Community Profiler Application</h5>
+            <p class="display-4 d-none d-sm-block">Put the right data in front of the right people</p>
+            <p class="lead">We organize Online Information Management System.</p>
+
+            <p class="lead">Sign up if you haven't already and get access to Online Profiler Web Application.</p>
+            <p><strong> Start Your Credential Here:</strong></p>
+            <section class="form-elegant">
+                <div class="text-center mb-3">
+                    <a href="#" class="btn btn-lg btn-info" style="padding-right: 35px;"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</a>
+                    <a href="#" class="btn btn-lg btn-info" style="padding-right: 35px;"><i class="fa fa-check-circle" aria-hidden="true"></i> Sign Up</a>
+                    <!-- <button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a"><i class="fa fa-user-plus"></i><a href="user/signup.html"></a> Sign up</button> -->
+                    <!-- <button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a"><i class="fa fa-check-circle"></i>Sign in</button> -->
+                </div>
+            </section>
+            
+            <br><br><br>
+        </div>
+    </section>
+    
+
+{% endblock content %}
